@@ -57,7 +57,7 @@ describe('GET /', function() {
     it('adds an event', function(done) {
       request(app)
       .post('/event')
-      .send( { title: 'a test event', description: 'a really cool test' })
+      .send( { "title": 'Deloitte Drifters', "description": 'Yes, we are listening' })
       .set('Accept', 'application/json')
       .expect(200)
       .end((err, res) => {
