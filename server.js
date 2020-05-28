@@ -18,8 +18,8 @@ app.use(bodyParser.json());
 // from a cloud data store
 const mockEvents = {
     events: [
-        { "title": 'Deloitte Drifters', id: 1234, "description": 'Yes, we are listening' },
-        { "title": 'Truth or Dare?', id: 5678, "description": 'Dare, always!' }
+        { "title": 'Deloitte Drifters', "id": 1, "description": 'Yes, we are listening' },
+          { "title": 'Truth or Dare?', "id": 2, "description": 'Dare, anytime ;)' }
     ]
 };
 
